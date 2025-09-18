@@ -1,0 +1,2 @@
+- [x] Ubah teks "Buka Undangan" menjadi tombol yang dapat diklik untuk menggulir ke bagian countdown
+- [x] Test fungsionalitas dengan membuka halaman dan mengklik tombol
