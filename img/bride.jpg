@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+    </radialGradient>
+    <pattern id="batik" patternUnits="userSpaceOnUse" width="40" height="40">
+      <rect width="40" height="40" fill="#8B4513" opacity="0.1"/>
+      <circle cx="20" cy="20" r="8" fill="#DAA520" opacity="0.3"/>
+      <path d="M10,10 Q20,5 30,10 Q35,20 30,30 Q20,35 10,30 Q5,20 10,10" fill="#DC143C" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#batik)"/>
+  
+  <!-- Face -->
+  <circle cx="200" cy="180" r="80" fill="#FDBCB4" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Hair -->
+  <path d="M120,120 Q200,80 280,120 Q290,140 280,160 Q270,140 200,130 Q130,140 120,160 Q110,140 120,120" fill="#2F1B14"/>
+  
+  <!-- Traditional Batak Headpiece -->
+  <rect x="160" y="100" width="80" height="20" fill="#DAA520" rx="10"/>
+  <circle cx="180" cy="110" r="5" fill="#DC143C"/>
+  <circle cx="200" cy="110" r="5" fill="#DC143C"/>
+  <circle cx="220" cy="110" r="5" fill="#DC143C"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="180" cy="170" rx="8" ry="12" fill="white"/>
+  <ellipse cx="220" cy="170" rx="8" ry="12" fill="white"/>
+  <circle cx="180" cy="170" r="5" fill="#2F1B14"/>
+  <circle cx="220" cy="170" r="5" fill="#2F1B14"/>
+  <circle cx="182" cy="168" r="2" fill="white"/>
+  <circle cx="222" cy="168" r="2" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M170,155 Q180,150 190,155" stroke="#2F1B14" stroke-width="3" fill="none"/>
+  <path d="M210,155 Q220,150 230,155" stroke="#2F1B14" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M200,180 L195,195 Q200,200 205,195 Z" fill="#F4A460" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M190,210 Q200,220 210,210" stroke="#DC143C" stroke-width="3" fill="none"/>
+  
+  <!-- Traditional Batak Clothing -->
+  <rect x="120" y="260" width="160" height="140" fill="#8B4513" rx="20"/>
+  <rect x="130" y="270" width="140" height="120" fill="#DAA520" rx="15"/>
+  
+  <!-- Traditional Patterns -->
+  <rect x="140" y="280" width="120" height="10" fill="#DC143C"/>
+  <rect x="140" y="300" width="120" height="10" fill="#DC143C"/>
+  <rect x="140" y="320" width="120" height="10" fill="#DC143C"/>
+  
+  <!-- Geometric Patterns -->
+  <polygon points="150,340 170,340 160,360" fill="#8B4513"/>
+  <polygon points="180,340 200,340 190,360" fill="#8B4513"/>
+  <polygon points="210,340 230,340 220,360" fill="#8B4513"/>
+  <polygon points="240,340 260,340 250,360" fill="#8B4513"/>
+  
+  <!-- Traditional Jewelry -->
+  <circle cx="200" cy="240" r="15" fill="#DAA520" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="200" cy="240" r="8" fill="#DC143C"/>
+  
+  <!-- Text -->
+  <text x="200" y="50" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8B4513">YANTI</text>
+  <text x="200" y="75" text-anchor="middle" font-family="serif" font-size="14" fill="#DAA520">Mempelai Wanita</text>
+</svg>
